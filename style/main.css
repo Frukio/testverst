@@ -1,0 +1,215 @@
+.header {
+  background-color: #151515;
+  color: #fff; }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    height: 62px; }
+  .header__right {
+    display: flex;
+    align-items: center; }
+  .header__left {
+    display: flex;
+    align-items: center; }
+  .header__button {
+    border-radius: 20px;
+    width: 130px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 14px; }
+  .header__button:hover {
+    background-color: #F9F3EB;
+    transition: 0.2s ease-in-out all; }
+
+.separ {
+  height: 24px;
+  margin: 0 35px;
+  align-items: center;
+  display: flex; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 650px; }
+  .nav__list {
+    display: flex; }
+  .nav__elem {
+    display: flex;
+    margin-right: 35px;
+    height: 30px;
+    font-size: 15px;
+    align-items: center; }
+  .nav__img {
+    padding-right: 7px; }
+  .nav__elem:hover {
+    border-bottom: 1px solid #fff;
+    transition: 0.5s ease-in-out all; }
+  .nav__icon {
+    width: 24px;
+    height: 24px; }
+
+.title {
+  margin-bottom: 54px; }
+  .title__name {
+    font-size: 45px;
+    font-weight: bold; }
+  .title__desc {
+    font-size: 26px; }
+
+.mainpage {
+  background-color: #F9F3EB;
+  padding-top: 65px;
+  padding-bottom: 81px; }
+  .mainpage__container {
+    width: 88%;
+    height: 100%; }
+
+.order__list {
+  display: flex;
+  justify-content: space-between; }
+.order__elem {
+  width: 30%; }
+.order__block {
+  display: flex;
+  flex-direction: column;
+  margin: 50px; }
+.order__elem:hover {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.2s ease-in-out all; }
+  .order__elem:hover .order__title {
+    color: #0C8444; }
+  .order__elem:hover .order__button {
+    background-color: #4DAE51;
+    border: none;
+    color: #fff; }
+.order__img {
+  width: 210px;
+  height: 210px; }
+.order__title {
+  font-size: 20px;
+  color: #151515;
+  font-weight: bold;
+  margin-top: 21px; }
+.order__desc {
+  font-size: 16px;
+  font-weight: normal;
+  color: #6A6D70;
+  margin-top: 21px; }
+.order__button {
+  width: 70%;
+  border-radius: 20px;
+  height: 45px;
+  text-decoration: none;
+  background: rgba(249, 243, 235, 0.5);
+  border: 1px solid #151515;
+  font-weight: bold;
+  margin-top: 36px; }
+
+.partners__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  margin: auto;
+  height: 120px; }
+
+.comments {
+  background-color: #0C8444;
+  height: 465px;
+  display: flex;
+  align-items: center; }
+  .comments__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9F3EB;
+    border-radius: 10px;
+    height: 355px;
+    width: 88%; }
+  .comments__page {
+    margin: 45px;
+    display: flex; }
+  .comments__left {
+    width: 30%; }
+  .comments__right {
+    width: 70%;
+    margin-left: 100px; }
+  .comments__info {
+    padding: 22px 0; }
+  .comments__name {
+    font-size: 16px;
+    font-weight: bold; }
+  .comments__data {
+    font-size: 14px; }
+  .comments__link {
+    color: #1FA6FC;
+    font-weight: bold;
+    font-size: 16px; }
+  .comments__title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 21px 0; }
+  .comments__desc {
+    font-size: 24px;
+    font-weight: normal; }
+
+.pagination__list {
+  display: flex;
+  padding-top: 40px; }
+.pagination__elem {
+  width: 14px;
+  height: 14px;
+  border: 1.3px solid #0C8444;
+  border-radius: 7px;
+  margin-right: 10px; }
+
+.footer {
+  background-color: #151515;
+  color: #fff; }
+  .footer__container {
+    display: flex;
+    padding-top: 60px;
+    width: 88%; }
+  .footer__columns {
+    width: 70%; }
+
+.copyright {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .copyright__logo {
+    padding-bottom: 55px; }
+  .copyright__contacts {
+    font-size: 16px;
+    font-weight: normal; }
+  .copyright__year {
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 15px; }
+
+.socials {
+  display: flex;
+  width: 70%; }
+
+.columns__list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px; }
+.columns__title {
+  font-size: 20px;
+  font-weight: bold; }
+
+.column__elem {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 20px; }
+.column__elem:hover {
+  border-bottom: 1px solid #fff;
+  transition: 0.5s ease-in-out all; }
+
+/*# sourceMappingURL=main.css.map */
